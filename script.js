@@ -3,8 +3,8 @@ document.documentElement.classList.add("js");
 const CONFIG = {
   tokenAddress: "6v2Xpt3Qd3YRBJ5v68E9eRLYqBDKMc5YYwcTpor7pump",
   pumpFunUrl: "",
-  twitter: "https://x.com/solya_x",
-  telegram: "https://t.me/solya_tg",
+  twitter: "https://x.com/moritzsol_x",
+  telegram: "https://t.me/moritz_tg",
 };
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
