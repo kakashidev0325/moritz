@@ -1,7 +1,7 @@
 document.documentElement.classList.add("js");
 
 const CONFIG = {
-  tokenAddress: "6v2Xpt3Qd3YRBJ5v68E9eRLYqBDKMc5YYwcTpor7pump",
+  tokenAddress: "Ah9zC3ZTtXT25kFsVr9Xskfpe6ThYmpocaDmy79zpump",
   pumpFunUrl: "",
   twitter: "https://x.com/moritzsol_x",
   telegram: "https://t.me/moritz_tg",
@@ -42,7 +42,7 @@ function initContract() {
         toast.classList.remove("show");
       }, 2500);
     } catch {
-      toast.textContent = "Copy failed — select and copy manually.";
+      toast.textContent = "Copy failed â€” select and copy manually.";
       toast.classList.add("show");
       setTimeout(() => toast.classList.remove("show"), 2500);
     }
